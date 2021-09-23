@@ -1,0 +1,59 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled2.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyP5S1jtU5SdZHnnZcaaJn2K",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/123LOPA/123LOPA/blob/main/shrestha\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KxxAVkbPiDe3",
+        "outputId": "f924ecbf-d1e2-4af4-f867-487d19d77891"
+      },
+      "source": [
+        "n_num = [1,2,3,4,5]\n",
+        "n = len(n_num)\n",
+        "get_sum = sum(n_num)\n",
+        "mean = get_sum/n\n",
+        "print(\"Mean/Average is:\"+str(mean))"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Mean/Average is:3.0\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
